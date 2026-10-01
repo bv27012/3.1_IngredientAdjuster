@@ -1,1 +1,9 @@
 // Calculates how much of each ingredient is needed to make an input amount of cookies, based off 48 cookies.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+}
