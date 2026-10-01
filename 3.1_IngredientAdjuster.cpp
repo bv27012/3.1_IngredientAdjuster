@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	const int originalCookies = 48;
+	const double originalCookies = 48;
 	const int originalButter = 1; //in cups
 	const double originalSugar = 1.5; //in cups
 	const double originalFlour = 2.75; //in cups
@@ -26,6 +26,9 @@ int main()
 	double newSugar = 1.5 * multiplier;
 	double newButter = 1.0 * multiplier;
 	double newFlour = 2.75 * multiplier;
+
+	cout << userCookies << " / " << originalCookies << endl;
+	cout << multiplier << endl << endl;
 
 	cout << "New Recipe: " << userCookies << " cookies." << endl;
 	cout << newSugar << " cups of sugar." << endl;
