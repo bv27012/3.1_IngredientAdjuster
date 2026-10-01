@@ -22,4 +22,16 @@ int main()
 	cin >> userCookies;
 	cout << endl;
 
+	double multiplier = userCookies / originalCookies;
+	double newSugar = 1.5 * multiplier;
+	double newButter = 1.0 * multiplier;
+	double newFlour = 2.75 * multiplier;
+
+	cout << "New Recipe: " << userCookies << " cookies." << endl;
+	cout << newSugar << " cups of sugar." << endl;
+	cout << newButter << " cups of butter." << endl;
+	cout << newFlour << " cups of flour." << endl;
+	cout << endl;
+
+	return 0;
 }
